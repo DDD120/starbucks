@@ -1,4 +1,3 @@
-
 /* VISUAL */
 .visual {
   margin-top: 120px;
@@ -71,6 +70,7 @@
 .notice .notice-line .inner {
   height: 62px;
   display: flex;
+  overflow: hidden;
 }
 .notice .notice-line .inner__left {
   width: 60%;
@@ -127,14 +127,14 @@
   justify-content: center;
   align-items: center;
 }
-.notice .notice-line .inner__right .toggle-promotion .material-icons{
+.notice .notice-line .inner__right .toggle-promotion .material-icons {
   font-size: 30px;
 }
 .notice .promotion {
   height: 693px;
   background-color: #f6f5ef;
   position: relative;
-  transition: height .4s;
+  transition: height 0.4s;
   overflow: hidden;
 }
 .notice .promotion.hide {
@@ -149,7 +149,7 @@
   transform: translateX(-50%);
 }
 .notice .promotion .swiper-slide {
-  opacity: .5;
+  opacity: 0.5;
   transition: opacity 1s;
   position: relative;
 }
@@ -196,7 +196,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: .4s;
+  transition: 0.4s;
 }
 .notice .promotion .swiper-prev {
   left: 50%;
@@ -216,7 +216,7 @@
 .rewards {
   position: relative;
 }
-.rewards .bg-left{
+.rewards .bg-left {
   width: 50%;
   height: 100%;
   background-color: #272727;
@@ -286,7 +286,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, 0.3);
   background-image: url("../images/video_cover_pattern.png");
 }
 #player {
@@ -310,29 +310,28 @@
   left: 150px;
 }
 
-
- /* SEASON PRODUCT */
- .season-product {
+/* SEASON PRODUCT */
+.season-product {
   background-image: url("../images/season_product_bg.jpg");
- }
- .season-product .inner {
+}
+.season-product .inner {
   height: 400px;
- }
- .season-product .floating3 {
+}
+.season-product .floating3 {
   position: absolute;
   top: -200px;
   right: 0;
 }
- .season-product .text-group {
-   position: absolute;
-   top: 110px;
-   right: 100px;
- }
- .season-product .text-group .title {
-   margin-bottom: 10px;
+.season-product .text-group {
+  position: absolute;
+  top: 110px;
+  right: 100px;
+}
+.season-product .text-group .title {
+  margin-bottom: 10px;
 }
 .season-product .text-group .desciption {
-   margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 /* RESERVE COFFEE */
@@ -382,7 +381,6 @@
 .pick-yout-favorite .text-group .desciption {
   margin-bottom: 40px;
 }
-
 
 /* RESERVE STORE */
 .resver-store {
@@ -451,7 +449,7 @@
 .find-store .picture {
   position: absolute;
   border-radius: 50%;
-  box-shadow: 2px 2px 8px rgba(0,0,0,.5);
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 .find-store .picture1 {
   top: -60px;
@@ -492,7 +490,7 @@
   border-radius: 50%;
   outline: none;
   color: #fff;
-  opacity: .3;
+  opacity: 0.3;
   cursor: pointer;
   display: flex;
   justify-content: center;
@@ -513,7 +511,6 @@
   background-color: #fff;
   color: #333;
 }
-
 
 #to-top {
   width: 42px;
